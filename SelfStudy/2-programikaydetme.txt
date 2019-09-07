@@ -1,0 +1,13 @@
+merhaba zalim dunya
+------------------------------ 
+ çalışılan gün sayısı	: 22 
+ işe gidiş ücreti	: 1.5 
+ işten dönüş ücreti	: 1.4 
+ ------------------------------ 
+ AYLIK YOL MASRAFI	: 63.8 
+
+isim	:Fırat
+soyisim	:Özgül
+işletim sistemi	:Ubuntu
+şehir	:İstanbul
+
