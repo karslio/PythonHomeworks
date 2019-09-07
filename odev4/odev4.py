@@ -66,5 +66,3 @@ while True:
         yapilacak.clear()
     else:
         print('lutfen gecerli bir islem giriniz')
-
-        ###
