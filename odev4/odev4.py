@@ -36,15 +36,11 @@ while True:
         print('programdan cikiliyor')
         break
     elif islem == '1':
-        if islem == 'q':
-            print('programdan cikiliyor')
-            continue
-        else:
-            todo = input('eklemek istediginiz gorev nedir :')
-            yapilacak.append(todo)
-            print('Yapilacaklar Listesi:')
-            for i,j in enumerate(yapilacak):
-                print(i+1,'-',j)
+        todo = input('eklemek istediginiz gorev nedir :')
+        yapilacak.append(todo)
+        print('Yapilacaklar Listesi:')
+        for i,j in enumerate(yapilacak):
+            print(i+1,'-',j)
 
     elif islem == '2':
         sil = input('silinecek islem nedir')

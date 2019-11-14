@@ -144,15 +144,15 @@
 #########################################################################
 # sehir = "Kahramanmaraş"
 # print(sehir.count('a'))
-
-kelime = input("Herhangi bir kelime: ")
-sayac = ""
-for harf in kelime:
-    if harf not in sayac:
-        sayac += harf
-print("sayaç içeriği: ", sayac)
-for harf in sayac:
-    print(f"{harf} harfi {kelime} kelimesinde {kelime.count(harf)} kez geçiyor!")
+#
+# kelime = input("Herhangi bir kelime: ")
+# sayac = ""
+# for harf in kelime:
+#     if harf not in sayac:
+#         sayac += harf
+# print("sayaç içeriği: ", sayac)
+# for harf in sayac:
+#     print(f"{harf} harfi {kelime} kelimesinde {kelime.count(harf)} kez geçiyor!")
 
 #########################################################################
 #########################################################################

@@ -9,18 +9,18 @@
 # 2-)Kullanıcıdan bir input alınız. Girmiş olduğu inputta büyük harf sayısı, küçük harf sayısı,
 # rakam sayısı ve bunların haricindeki özel karakter sayılarını veren bir program yazınız.
 
-# kelime = input("Herhangi bir kelime: ")
-# buyuk=kucuk=rakam=haric=0
-# for harf in kelime:
-#     if(harf.isupper()):
-#        buyuk+=1
-#     elif(harf.islower()):
-#         kucuk+=1
-#     elif (harf.isdigit()):
-#         rakam+=1
-#     else:
-#         haric+=1
-# print(f'buyuk harf sayisi {buyuk}\nkucuk harf sayisi {kucuk}\nrakam sayisi {rakam}\ndiger karakter {haric}')
+kelime = input("Herhangi bir kelime: ")
+buyuk=kucuk=rakam=haric=0
+for harf in kelime:
+    if(harf.isupper()):
+       buyuk+=1
+    elif(harf.islower()):
+        kucuk+=1
+    elif (harf.isdigit()):
+        rakam+=1
+    else:
+        haric+=1
+print(f'buyuk harf sayisi {buyuk}\nkucuk harf sayisi {kucuk}\nrakam sayisi {rakam}\ndiger karakter {haric}')
 
 # 3-)Kullanıcıdan bir input alınız. Girmiş olduğu inputtaki rakamların toplamını veren bir program yazınız.
 # (Kullanıcı rakam girmek zorunda değil.
