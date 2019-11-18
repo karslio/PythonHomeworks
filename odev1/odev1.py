@@ -2,13 +2,13 @@
 # 1-
 # Input ile kullanıcıdan bir kelime yazmasını isteyip, bu kelimeyi altı çizili ve etrafı desenli bir şekilde printleyin.
 
-kelime = input('bir kelime yazin:')
-print(f"""
-{'*'*(len(kelime)+6)}
-*  {kelime}  *
-*  {'-'*len(kelime)}  *
-{'*'*(len(kelime)+6)}
-""")
+# kelime = input('bir kelime yazin:')
+# print(f"""
+# {'*'*(len(kelime)+6)}
+# *  {kelime}  *
+# *  {'-'*len(kelime)}  *
+# {'*'*(len(kelime)+6)}
+# """)
 
 
 # 2-
@@ -107,6 +107,14 @@ print(f"""
 # f = open('aylikmasraf', 'w')
 # print(f'bilgileri girilen kisinin toplam masrafi {toplammasraf} olup '
 #       f'gelirinin gidere orani {gelirgiderorani}dir', file=f)
+#
+
+
+
+
+
+
+
 
 
 # 6-

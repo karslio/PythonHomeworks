@@ -46,9 +46,12 @@
 # # end  "\n" olarak calisir
 #
 # print("bir", "iki", "üç", "dört", "on dört", sep=" mumdur ", end=" mumdur\n")
-#
+
+# f = open('1-print.txt', 'w')
 # print("Tahir olmak da ayıp değil", "Zühre olmak da")
-# # print("Tahir olmak da ayıp değil", "Zühre olmak da", sep=" ", end="\n", file=sys.stdout)
+# print("Tahir olmak da ayıp değil", "Zühre olmak da", sep=" ", end="\n", file=f)
+# f.close()
+
 #
 # f = open('1-print.txt', 'w')
 # print("Tahir olmak da ayıp değil", "Zühre olmak da", file=f)
@@ -74,11 +77,23 @@
 # print(baslik, '\n', '-' * len(baslik), sep='')
 #
 # print("bir", "iki", "üç", sep="\t")
+#
+#
+# pi = 3.14
+# r = 5
+# alan = pi * r * r
+# print(alan)
 
 
-pi = 3.14
-r = 5
-alan = pi * r * r
-print(alan)
+# print("Python Programlama Dili")
+# print("hardenber'de yasiyorum")
+# print('ali', 'veli', sep='-')
+# print('bir', 'iki', 'uc', 'dort', 'on dort', sep=' mumdur ', end=' mumdur\n')
+#
+# print('birincisatir\nikincisatir\nucuncusatir')
+# print('birincisatir', 'ikincisatir', 'ucuncusatir', sep='\n')
 
-
+f = open('yazdir.txt', "w")
+print('merhaba hardenberg', file=f,flush=True)
+print('merhaba hardenberg', file=f,flush=True)
+# f.close()
